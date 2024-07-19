@@ -13,7 +13,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="kobe">
+  <meta name="author" content="叶炎">
   <meta name="keywords" content="">
   
     <meta name="description" content="一级标题二级标题衬衫的价格是九磅十五便士。衬衫的价格是九磅十五便士。衬衫的价格是&#x3D;&#x3D;九磅十五便士&#x3D;&#x3D;。 可以使用print(&quot;hello world&quot;)打印字符 1print(&quot;hello world&quot;)  123456# 一级标题## 二级标题**衬衫**的价格是九磅十五便士。衬衫的*价格*是~~九磅十五便士~~。衬">
@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-17T16:00:00.000Z">
 <meta property="article:modified_time" content="2024-07-18T02:44:33.146Z">
-<meta property="article:author" content="kobe">
+<meta property="article:author" content="叶炎">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -329,7 +329,7 @@
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>kobe</div>
+          <div>叶炎</div>
         </div>
       
       
@@ -389,6 +389,38 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://cdn.staticfile.org/waline/2.15.5/waline.min.css')
+      Fluid.utils.createScript('https://cdn.staticfile.org/waline/2.15.5/waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"myblogcomment-six.vercel.app","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
